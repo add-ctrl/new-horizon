@@ -1,9 +1,0 @@
-version: '3'
-services:
-  web:
-    build: .
-    command: bash -c "bundle exec jekyll s --incremental --host=0.0.0.0"
-    volumes:
-      - .:/myapp
-    ports:
-      - "4000:4000"
