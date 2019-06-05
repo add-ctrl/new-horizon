@@ -1,5 +1,6 @@
 body {
   font-family: "proxima-nova";
+  font-size: 1.2rem;
 }
 
 .no-mp {
@@ -19,7 +20,39 @@ body {
   }
 }
 
-p.capture {
+div.text-capture {
   font-size: 1.4rem;
   margin-top: 2em;  
+}
+
+h3.heading {
+  font-family: arial;
+  font-size: 1.6rem;
+  font-weight: normal;
+  color:rgba(0,0,0,0.8);
+}
+
+.mgtop {
+  margin-top: 3rem;
+}
+
+h4.heading {
+  font-family: arial;
+  font-size: 1.4rem;
+  color:rgba(0,0,0,0.7);
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+}
+
+div.image-header {
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+}
+
+p.synopsis {
+  margin-top: 0.5em;
+  font-family: Arial;
+  font-size: 0.9em;
+  color:rgba(0,0,0,0.7);
 }
