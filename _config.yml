@@ -1,3 +1,5 @@
+exclude: ['Dockerfile', 'docker-compose.yml', 'Gemfile.lock']
+baseurl: '/new-horizon'
 plugins:
   - jekyll-feed
   - jekyll-sitemap
