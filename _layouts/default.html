@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <title>{{ page.title }}</title>    
-    <link rel="stylesheet" href="/assets/css/styles.css" />
-    <script src="/assets/js/jquery-3.4.1.min.js"></script>
-    <script src="/assets/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css" />
+    <script src="{{ site.baseurl }}/assets/js/jquery-3.4.1.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
     {% seo %}
   </head>
   <body>
@@ -13,7 +13,7 @@
       {% include navigation.html %}
       
       <div class="row no-gutters">
-        <div class="col-sm banner" style="background:url(/assets/images/{{ page.banner_img }}); background-repeat: no-repeat;"></div>
+        <div class="col-sm banner" style="background:url({{ site.baseurl }}/assets/images/{{ page.banner_img }}); background-repeat: no-repeat;"></div>
       </div>
       
       {{ content }}
