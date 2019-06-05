@@ -7209,6 +7209,9 @@ a.text-dark:focus, a.text-dark:hover {
     color: inherit;
     border-color: #dee2e6; } }
 /*# sourceMappingURL=bootstrap.min.css.map */
+body {
+  font-family: "proxima-nova"; }
+
 .no-mp {
   margin: 0 !important;
   padding: 0 !important; }
@@ -7220,3 +7223,7 @@ a.text-dark:focus, a.text-dark:hover {
 
 .nav-link:hover {
   border-bottom: solid 3px #8bb8ea; }
+
+p.capture {
+  font-size: 1.4rem;
+  margin-top: 2em; }
