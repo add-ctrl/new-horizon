@@ -1,5 +1,12 @@
 - name: Home
-  link: /
+  link: /index.html
 - name: About
   link: /about.html
-
+- name: Operations
+  link: /operations.html
+- name: Careers
+  link: /careers.html
+- name: Social/Environmental
+  link: social.html
+- name: Contact
+  link: contact.html

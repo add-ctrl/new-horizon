@@ -8,3 +8,9 @@
   height: 350px;  
   overflow: hidden;
 }
+
+.nav-link {
+  &:hover {
+    border-bottom: solid 3px rgba(139,184,234,1);
+  }
+}
