@@ -5,4 +5,4 @@ banner_img: site-banner-sm.jpg
 banner_title: Oil Field with Pump Jacks
 ---
 
-# Opportunities
+<h3 class="heading text-center">Business Opportunities</h3>

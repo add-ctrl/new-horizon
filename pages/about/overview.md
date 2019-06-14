@@ -5,8 +5,9 @@ banner_img: site-banner-sm.jpg
 banner_title: Oil Field with Pump Jacks
 ---
 
-# 33+ YEARS OF INDUSTRY LEADERSHIP
+<h3 class="heading text-center">33+ YEARS OF INDUSTRY LEADERSHIP</h3>
 
+<p>
 For more than 33 years, the founder Greg Boyles has been a leader in the oil exploration
 and production industry. Initially establishing New Horizon Exploration, Inc. (1985) as a
 modest, family-owned and operated regional exploration company mainly focused in the
@@ -19,3 +20,4 @@ operations in Trinidad and Colombia.
 In time, New Horizon Global, Inc. was organized (2008) as a privately held company in
 the United States to separate certain assets owned by New Horizon Exploration, Inc.
 and to operate them independent of the other both domestically and internationally.
+</p>
