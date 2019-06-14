@@ -1,9 +1,8 @@
 ---
-layout: default
-title: About
+layout: about
+title: About - overview
 banner_img: site-banner-sm.jpg
 banner_title: Oil Field with Pump Jacks
 ---
-# About page
 
-This is the about us page
+# Opportunities

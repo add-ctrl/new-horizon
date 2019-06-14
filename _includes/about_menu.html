@@ -1,0 +1,12 @@
+<div class="about-side-menu">
+  <h3>About NHG</h3>
+  <ul>
+    {% for item in site.data.about_menu %}
+      <li class="item {% if page.url == item.link %}active{% endif %}">
+        <a class="link" href="{{ site.baseurl }}{{ item.link }}">
+          {{ item.name | upcase }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

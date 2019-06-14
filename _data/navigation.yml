@@ -1,7 +1,7 @@
 - name: Home
   link: /index.html
 - name: About
-  link: /about.html
+  link: /pages/about/overview.html
 - name: Operations
   link: /operations.html
 - name: Careers

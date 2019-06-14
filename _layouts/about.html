@@ -1,0 +1,23 @@
+---
+layout: default
+title: About
+banner_img: site-banner-sm.jpg
+banner_title: Oil Field with Pump Jacks
+---
+
+<div class="row no-mp">
+  <div class="col-sm-3 no-mp">    
+    {% include about_menu.html %}  
+  </div>
+  <div class="col-sm-6 content-vspacing">
+    {{ content }}
+  </div>
+  <div class="col-sm-3 about-right-menu">
+    <div class="row no-mp content-vspacing">
+      {% include mission_statement.html %}
+    </div>
+    <div class="row no-mp vspace">
+        {% include core_values.html %}
+      </div>
+  </div>
+</div>

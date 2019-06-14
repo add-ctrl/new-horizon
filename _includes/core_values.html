@@ -1,0 +1,11 @@
+<div class="about-rcontent">
+  <h3 class="about-rheader">Core Values</h3>
+
+  <ul>
+    {% for item in site.data.core_values %}
+      <li>        
+        {{ item.name | upcase }}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
